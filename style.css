@@ -28,6 +28,12 @@ header {
   padding: 0 1.5rem;
 }
 
+header,
+main img,
+video {
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+}
+
 #logo {
   display: inline-flex;
   align-items: center;
@@ -39,12 +45,6 @@ header {
 a {
   text-decoration: none;
   color: black;
-}
-
-main img,
-.course,
-video {
-  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
 }
 
 header img {
@@ -125,6 +125,7 @@ h6 {
 p {
   color: grey;
 }
+
 .intro p {
   padding-bottom: 1.5rem;
 }
@@ -150,7 +151,7 @@ aside {
 
 aside img {
   width: 100%;
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 blockquote {
@@ -169,7 +170,6 @@ blockquote {
 figcaption {
   padding-top: 1rem;
   padding-left: 1rem;
-  /* padding-bottom: 1rem; */
 }
 
 figcaption * {
@@ -283,7 +283,7 @@ footer {
     width: 35%;
     min-width: 150px;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   figcaption {
@@ -317,7 +317,7 @@ footer {
 
   .course {
     background-color: white;
-    /* width: 30%; */
+    box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
   }
 
   .course img {
